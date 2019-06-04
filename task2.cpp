@@ -1,4 +1,3 @@
-#include "pch.h"
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -27,7 +26,7 @@ void func(string s,int f[6]) {
 
 int main()
 {
-	string s, a = "a", e = "e", y = "y", u = "u", i = "i", o = "o";
+	string s;
 	int mas[6];
 	getline(cin, s);
 	func(s,mas);
