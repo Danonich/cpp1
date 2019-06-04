@@ -30,7 +30,6 @@ int main()
 	string s, a = "a", e = "e", y = "y", u = "u", i = "i", o = "o";
 	int mas[6];
 	getline(cin, s);
-	s.length();
 	func(s,mas);
 	cout << "a = " << mas[0] << " " << "e = " << mas[1] << " " << "y = " << mas[2] << " " << "u = " << mas[3] << " " << "i = " << mas[4] << " " << "o = " << mas[5] << endl;
 	system("pause");
