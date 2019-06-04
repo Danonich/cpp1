@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	string s, a = "a", e = "e", y = "y", u = "u", i = "i", o = "o";
+	string s;
 	int l = 0, d = 0, f = 0, g = 0, h = 0, j = 0;
 	getline(cin,s);
 	s.length();
